@@ -1,5 +1,14 @@
+import Chai from "./chai";
+
 function App() {
-  return <h1>Learn React</h1>;
+  const username = "Apurva Kumar";
+  return (
+    <>
+      <Chai />
+      <h1>Learn React</h1>
+      {username}
+    </>
+  );
 }
 
 export default App;
